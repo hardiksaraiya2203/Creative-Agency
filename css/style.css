@@ -1,0 +1,373 @@
+
+*{
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaText-Trial-Light.woff') format('woff');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f8fa;
+}
+
+.display-5{
+    font-weight: 400;
+    color: #000000;
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+/* colour css */
+.grey{
+    color: #8b91a0;
+}
+.blue{
+    color: #188ef4;
+}
+.green{
+    color: #1dc9cb;
+}
+.blueBg
+{
+    color: #ffffff;
+    background-color: #188ef4;
+
+}
+ 
+/* colour css */
+
+.secH{
+
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.therdH{
+    font-size: 25px;
+    margin: 1rem 0 !important;
+}
+
+.padingDefault{
+    padding: 64px;
+}
+
+/* navbar css */
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand {
+    font-size: 1.7rem;
+}
+.fa-brands{
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 2px solid #444444;
+    color: #444444;
+}
+.fa-brands:nth-child(3){
+    padding:0.5rem 0.7rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+/* navbar css end */
+
+/* banner css */
+.Banner{
+    position: relative;
+}
+.Banner .container{
+    position: absolute;
+    top: 28%;
+    left: 0;
+    right: 0;
+}
+.bannerText{
+    width: 55%;
+    margin: auto;
+}
+.cards{
+    position: relative;
+   
+}
+.cards .bg-white{
+    box-shadow: 0 0 8px 3px #0000001a;
+}
+.Banner div.cardvala{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    transform: translate(0, -50%);
+}
+
+.ico {
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    background-color: #188ef4;
+    color: #ffffff;
+    height: 70px;
+    width: 70px;
+    padding: 17px 0;
+    border-radius: 50%;
+    font-size: 25px;
+}
+/* banner css End */
+
+/* About Us css */
+.About-Us{
+    padding-top: 150px;
+}
+.About-Us .btn{
+    padding: 0.5rem 1.75rem;
+    margin-top: 20px;
+}
+.About-Us ul li{
+    line-height: 38px;
+}
+
+.text1{
+    padding-right: 40px;
+}
+.imgPart1{
+    padding-left: 40px;
+}
+.imgPart1 img{
+    border-radius: 5px;
+    box-shadow: -5px -5px 15px 3px #00000017;
+}
+/*  */
+
+/* Services CSS start */
+.Services .container{
+    padding: 0 64px;
+}
+i.d-block{
+    color: #1dc9cb;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+.Scards .bg-white {
+    border-radius: 5px;
+    box-shadow: -0 -0 20px 3px #0000000b;
+    padding: 3.5rem !important;
+}
+/* Services CSS End */
+
+/* Creative Team */
+
+.CreativeTeam .therd {
+    font-size: 25px;
+    margin: 3rem 0 0 !important;
+}
+.CreativeTeam img{
+  border-radius: 5px;
+}
+/* Creative Team end */
+
+/* Achievments Section Start */
+.iconA{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: #188ef4;
+    font-size: 50px;
+}
+
+
+.Achievments .Scards{
+    position: relative;
+    padding-left: 4rem;
+}
+
+.Achievments .Scards:nth-child(2){
+    padding-left: 5rem !important;
+}
+.Achievments .col-1 {
+width: 13%;
+}
+
+.Achievments .display-5 {
+   margin-bottom: 0 !important;
+}
+
+/* Achievments Section Start */
+
+/* partners section */
+
+.Partners{
+    background-image: url("../image/Back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.PartnerImg{
+    display: block;
+    width: 15%;
+}
+
+/* partner section End*/
+
+/* Clients Section */
+.Clients .bg-white {
+    border-radius: 5px;
+    box-shadow: -0 -0 20px 3px #0000000b;
+    position: relative;
+}
+.Clients .bg-white h2{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 10px 20px 10px 135px;
+}
+.Clients .bg-white h2{
+    border-radius: 0rem 5px 5px 0rem;
+    background: linear-gradient(90deg, #5EEEBC 0%, #51AAF9 100%);
+}
+
+.Clients .Pic{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url("../image/Creative\ \(3\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+/* Clients Section End*/
+
+
+/* map Section Start */
+
+.map{
+    height: 30.75rem;
+}
+/* map Section End */
+
+/* Form Section Start */
+.FormFill{
+    
+}
+
+.FormFill .btn{
+        padding: 0.5rem 1.75rem;
+        color: #ffffff;
+        background-color: #1dc9cb;;
+}
+.FormFill .container{
+    position: relative;
+    z-index: 1;
+    margin-top: -190px;
+    padding-top: 0;
+}
+.FormFill .row{
+    border-radius: 5px;
+    box-shadow: -0 -0 20px 3px #0000000b;
+    background-color: #fdfefe;
+}
+.formArea{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    border-radius: 5px;
+}
+.InputField {
+    width: 48%;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    box-shadow: -0 -0 20px 3px #0000000b;
+}
+
+textarea.w-100{
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    box-shadow: -0 -0 20px 3px #0000000b;
+}
+
+.formArea *::placeholder{
+color: #8b91a0 ;
+background-color: #ffffff;
+}
+
+.FormFill .Adresscard{
+    background: linear-gradient(214deg, #50AAF9 0%, #2BDC9E 100%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 5px 5px 0;
+}
+
+.therd{
+    font-size: 25px;
+    margin:0 0 1rem 0 !important;
+}
+
+
+.FormFill .fa-brands {
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.FormFill .fa-brands:nth-child(2){
+    padding:0.5rem 0.7rem;
+}
+.FormFill .fa-brands:nth-child(3){
+    padding:0.5rem 0.6rem;
+}
+.padingD{
+    padding: 45px;
+}
+/* Form Section end */
+
+/* Footer Start */
+.FooterSection{
+    background-image: url('../image/Footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.FooterSection .a{
+    display: block;
+    margin-bottom: 0.3;
+}
+.FooterSection .text-dark i{
+color: #727272;
+}
+
+.FooterSection img{
+width: 80%;
+padding-left: 30px;
+}
+/* footer End */
